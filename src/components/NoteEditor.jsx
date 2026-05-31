@@ -27,6 +27,7 @@ export default function NoteEditor({ note, isNew, onSave, onDelete, onClose }) {
   })
 
   const scheduleSave = useCallback(() => {
+    const { title, content } = latestNote.current
     if (!title && !content) return
     setSaveStatus('saving')
     if (saveTimeout.current) clearTimeout(saveTimeout.current)
@@ -45,10 +46,9 @@ export default function NoteEditor({ note, isNew, onSave, onDelete, onClose }) {
   }, [title, content, font])
 
   async function handleClose() {
-    if (saveTimeout.current) {
-      clearTimeout(saveTimeout.current)
-      await onSave(latestNote.current)
-    }
+    clearTimeout(saveTimeout.current)
+    const { title, content } = latestNote.current
+    if (title || content) await onSave(latestNote.current)
     onClose()
   }
 
