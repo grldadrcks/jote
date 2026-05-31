@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <!-- Transparent background — amber comes from ic_launcher_background color -->
+
+  <!-- Paper shadow -->
+  <rect x="216" y="216" width="580" height="700" rx="52" fill="rgba(0,0,0,0.10)"/>
+
+  <!-- Paper -->
+  <rect x="196" y="196" width="580" height="700" rx="52" fill="white"/>
+
+  <!-- Title line -->
+  <rect x="276" y="300" width="360" height="36" rx="18" fill="#FDE68A"/>
+
+  <!-- Body lines -->
+  <rect x="276" y="384" width="320" height="22" rx="11" fill="#FEF3C7"/>
+  <rect x="276" y="432" width="370" height="22" rx="11" fill="#FEF3C7"/>
+  <rect x="276" y="480" width="270" height="22" rx="11" fill="#FEF3C7"/>
+  <rect x="276" y="528" width="340" height="22" rx="11" fill="#FEF3C7"/>
+
+  <!-- Pen -->
+  <g transform="translate(648, 736) rotate(-38)">
+    <rect x="-26" y="-172" width="52" height="58" rx="26" fill="#92400E"/>
+    <rect x="12" y="-172" width="9" height="68" rx="4" fill="#78350F"/>
+    <rect x="-26" y="-116" width="52" height="196" rx="8" fill="#F59E0B"/>
+    <rect x="-26" y="-116" width="52" height="14" fill="#D97706"/>
+    <rect x="-26" y="64" width="52" height="12" fill="#D97706"/>
+    <path d="M -26 76 L 0 126 L 26 76 Z" fill="#FBBF24"/>
+    <path d="M -11 98 L 0 144 L 11 98 Z" fill="#92400E"/>
+    <circle cx="0" cy="144" r="6" fill="#451A03"/>
+    <rect x="-13" y="-104" width="8" height="184" rx="4" fill="white" opacity="0.25"/>
+  </g>
+</svg>
