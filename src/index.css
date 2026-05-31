@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  overscroll-behavior: none;
+}
+
+textarea {
+  resize: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  -webkit-appearance: none;
+}

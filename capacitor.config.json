@@ -1,0 +1,17 @@
+{
+  "appId": "com.jote.app",
+  "appName": "Jote",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "StatusBar": {
+      "style": "Dark",
+      "backgroundColor": "#FFFBF5"
+    },
+    "Keyboard": {
+      "resize": "body"
+    }
+  }
+}
